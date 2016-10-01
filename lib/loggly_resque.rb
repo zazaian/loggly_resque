@@ -3,6 +3,8 @@
 # directly to Loggly if the #logger method is used to call the logger within
 # the perform block
 module LogglyResque
+  VERSION = "0.1.0"
+
   def logger
     @logger ||= Logglier.new(logger_url, format: :json)
   end
