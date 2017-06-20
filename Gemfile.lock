@@ -33,8 +33,9 @@ PLATFORMS
 
 DEPENDENCIES
   faker (~> 1.6)
+  logglier
   loggly_resque!
   rspec (~> 3.4)
 
 BUNDLED WITH
-   1.11.2
+   1.13.7
